@@ -1,0 +1,27 @@
+{
+  "name": "top3deathmatch",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "dev:remote": "svelte-kit dev --host 0.0.0.0 --port 8081",
+    "build": "svelte-kit build",
+    "package": "svelte-kit package",
+    "preview": "svelte-kit preview",
+    "preview:remote": "svelte-kit preview --host 0.0.0.0 --port 8081",
+    "prepare": "svelte-kit sync",
+    "lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. .",
+    "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "next",
+    "@sveltejs/kit": "next",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-svelte3": "^3.2.1",
+    "prettier": "^2.5.1",
+    "prettier-plugin-svelte": "^2.5.0",
+    "svelte": "^3.44.0",
+    "svelte-check": "^2.2.6"
+  },
+  "type": "module"
+}
